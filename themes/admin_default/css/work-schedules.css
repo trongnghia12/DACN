@@ -1,0 +1,23 @@
+﻿.display-inline-block {
+    display: inline-block!important;
+}
+.fa-required{
+    display: block;
+}
+.fa-required em{
+    font-size: 75%;
+}
+.list-none{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.help-block-no{
+    margin-bottom: 0!important;
+}
+.form-label{
+    text-align: right;
+}
+.form-label-input-text{
+    padding-top: 15px!important;
+}

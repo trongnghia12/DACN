@@ -1,0 +1,152 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 31/05/2010, 00:36
+ */
+
+.ui-datepicker{
+    width: auto!important;
+}
+.mb20{
+    margin-bottom: 20px!important;
+}
+.mb0{
+    margin-bottom: 0px!important;
+}
+.h2.mb20{
+    font-weight: 700;
+}
+.schedule-list{
+    width: 100%;
+}
+.schedule-list thead{
+    background: #eaeef3;
+}
+.schedule-list thead th,
+.schedule-list thead td {
+    white-space: nowrap!important;
+}
+.schedule-list .week-head{
+    background: #428bca;
+    color: #fff;
+}
+.schedule-list tr{
+    border-bottom: 1px #e4e4e4 solid;
+}
+.schedule-list tr td, .employ-list tr th{
+    padding: 5px 5px;
+}
+.schedule-list tr td.dtop{
+    vertical-align: top;
+}
+.schedule-list tr td.img{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.schedule-list .highlights{
+    color: #fff;
+    background: #f16236;
+}
+.schedule-list .highlights a{
+    color: #fff;
+}
+.schedule-list-mobile{
+    display: none;
+}
+.w100{
+    width: 100px!important;
+}
+.w150{
+    width: 150px!important;
+}
+.w300{
+    width: 300px!important;
+}
+h2.week-head{
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ddd;
+}
+h3.dayweek-head{
+    margin-bottom: 7px;
+}
+.accom-detail-data{
+    border: 1px #e4e4e4 solid;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #FFFAFA;
+}
+.accom-detail-data .ltf{
+    color: grey;
+    text-transform: uppercase;
+}
+.accom-detail-data .hed{
+    margin: -15px -15px 15px -15px;
+    padding: 15px;
+    border-bottom: 1px #e4e4e4 solid;
+    font-weight: 700;
+}
+.accom-detail-data .accom-detail-data-item{
+    border-bottom: 1px #e4e4e4 solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.accom-detail-data .accom-detail-data-item:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.w200{
+    width: 200px;
+}
+.post-table{
+    width: 100%;
+}
+.post-table td{
+    padding: 4px;
+}
+.fa-required{
+    display: inline-block;
+    margin-left: 4px;
+}
+.btn-full{
+    display: block;
+    width: 100%;
+}
+.ui-datepicker{
+    z-index: 99!important;
+}
+.post-table .text-strong{
+    vertical-align: middle;
+}
+.schedule-list-tool{
+    margin-bottom: 20px;
+}
+.schedule-list-tool select{
+    width: 400px;
+}
+.schedule-list-tool .dropdown-menu{
+    max-height: 300px;
+    overflow: auto;
+}
+
+/* MSG BOX */
+.message-box-title{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+.schedule-list-mobile{ display: block; }
+.schedule-list-tool > .pull-left { margin-bottom: 10px;width: 100%; }
+.schedule-list-tool > .pull-left > .btn-group { display: table; width: 100%;border-collapse: separate;table-layout: fixed; }
+.schedule-list-tool > .pull-left > .btn-group > .btn {display: table-cell;float: none;width: 40px;}
+.schedule-list-tool > .pull-left > .btn-group > .btn-group {display: table-cell;float: none;}
+.schedule-list-tool > .pull-left > .btn-group > .btn-group > .btn {width: 100%;}
+.schedule-list-tool > .pull-left > .btn-group > .btn-group > .dropdown-menu {width: 100%;}
+.schedule-list-tool > .pull-right{ width: 100%; text-align: center; }
+table.schedule-list{ display: none; }
+}

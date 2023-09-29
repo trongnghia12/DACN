@@ -1,0 +1,13 @@
+[Sun, 11 Jun 2023 21:46:41 +0700] [localhost] [::1] [Notice(8): A non well formed numeric value encountered] [FILE: /modules/dispatch/admin/add_document.php] [LINE: 310] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 310   FILE: /modules/dispatch/admin/add_document.php
+
+[Sun, 11 Jun 2023 23:48:52 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[HY000] [1049] Unknown database 'test'] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 94] [TRACE:]
+#1  LINE: 26    FILE: /index.php
+#2  LINE: 269   FILE: /includes/mainfile.php
+#3  LINE: 94    FILE: /vendor/vinades/nukeviet/Core/Database.php
+
+[Sun, 11 Jun 2023 23:48:52 +0700] [localhost] [::1] [User Error(256): Sorry! Could not connect to data server] [FILE: /includes/mainfile.php] [LINE: 274] [TRACE:]
+#1  LINE: 26    FILE: /index.php
+#2  LINE: 274   FILE: /includes/mainfile.php
+
